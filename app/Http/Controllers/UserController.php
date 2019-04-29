@@ -37,7 +37,7 @@ class UserController extends Controller
         $user->created_by=Auth::user()->id;
         $user->status="0";
     	$user->save();
-    	return Response::json(['status'=>1,'message'=>'User Added Success Naayae']);
+    	return Response::json(['status'=>1,'message'=>'User Added Success Sirrr']);
     }
 
 }
